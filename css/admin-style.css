@@ -1,0 +1,105 @@
+.bem-vindo{
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(141deg, rgba(0,0,0,1) 2%, rgba(61,110,255,1) 100%);
+  background: -webkit-linear-gradient(141deg, rgba(0,0,0,1) 2%, rgba(61,110,255,1) 100%);
+  background: linear-gradient(141deg, rgba(0,0,0,1) 2%, rgba(61,110,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#3d6eff",GradientType=1);
+  padding: 25px 30px 50px 30px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.bem-vindo h2{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.bem-vindo p{
+  font-size: 15px;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.botao-novo{
+  background: #efeff0;
+  color: #444;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.section-admin{
+  max-width: 1700px;
+  margin-top: 20px;
+}
+
+
+.ajuda, .seguir{
+  background-color: #ffffff;
+  padding: 20px 20px 40px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.seguir{
+  margin-left: 10px;
+  text-align: center;
+}
+
+.section-ajuda h3{
+  color: #8500b0;
+  line-height: 0;
+}
+
+.section-ajuda p{
+  font-size: 15px;
+}
+
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+.box-ajuda{
+  margin-right: auto;
+  display: flex;
+}
+
+.botao-box{
+  text-decoration: none;
+  color: #444;
+  border: 1px solid #d5d5d5;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.botao-box:hover{
+ background: #f8f8f8;
+}
+
+.box-changelog{
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 1400px;
+  padding: 20px;
+}
+
+.box-changelog h3{
+  font-size: 30px;
+}
+
+.linha{
+  border-top: 1px solid rgb(239, 239, 239);
+  margin-bottom: 15px;
+  margin-top: -5px;
+}
+
+#box-cidade {
+ border: 1px solid #ccc;
+ padding: 10px;
+ margin-bottom: 10px;
+ margin-right: 10px;
+}
